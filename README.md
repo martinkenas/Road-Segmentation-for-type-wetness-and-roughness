@@ -1,9 +1,11 @@
 # Road-Segmentation-for-type-wetness-and-roughness
-A system for segmenting road surface type, condition (wetness), and roughness from images using YOLOv8. Bachelor's Thesis.
+A system for segmenting road surface type, condition (wetness), and roughness from images using YOLOv8. Lithuanian comments.
+
+![me](https://github.com/martinkenas/Road-Segmentation-for-type-wetness-and-roughness/blob/main/ezgif-753fa339e70d95.gif)
 
 # Road Surface Segmentation System
 
-This repository contains the project files for a Bachelor's Thesis on "A System for Image Segmentation of Road Surface Type, State and Roughness." The system is designed to analyze images and video streams to identify and classify road surfaces based on their type (e.g., asphalt, gravel, pavement), condition (e.g., dry, wet), and roughness (e.g., smooth, rough, very rough).
+This repository contains the project files for a "A System for Image Segmentation of Road Surface Type, State and Roughness." The system is designed to analyze images and video streams to identify and classify road surfaces based on their type (e.g., asphalt, gravel, pavement), condition (e.g., dry, wet), and roughness (e.g., smooth, rough, very rough).
 
 The core of the system utilizes **YOLOv8n segmentation models**, individually trained for four distinct tasks:
 1.  Overall road surface detection.
@@ -15,7 +17,7 @@ The core of the system utilizes **YOLOv8n segmentation models**, individually tr
 
 * `/model_training_scripts`: Contains Python scripts used for training each of the YOLOv8n models, including data preprocessing and augmentation configurations.
 * `/trained_models`: Includes the pre-trained YOLOv8n model weights (in `.pt` files)
-* `/main_system`: Contains the main Python script(s) for running the integrated system on video files. This script loads the trained models to perform sequential road surface analysis and visualization.
+* `/main_vid_file`: Contains the main Python script(s) for running the integrated system on video files. This script loads the trained models to perform sequential road surface analysis and visualization.
 * `README.md`: This file.
 
 ## System Overview
