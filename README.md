@@ -1,7 +1,7 @@
 # Road-Segmentation-for-type-wetness-and-roughness
 A system for segmenting road surface type, condition (wetness), and roughness from images using YOLOv8. Lithuanian comments.
 
-![me](https://github.com/martinkenas/Road-Segmentation-for-type-wetness-and-roughness/blob/main/ezgif-753fa339e70d95.gif)
+![me](https://github.com/martinkenas/Road-Segmentation-for-type-wetness-and-roughness/blob/main/ezgif-10c2650709dd89.gif)
 
 # Road Surface Segmentation System
 
